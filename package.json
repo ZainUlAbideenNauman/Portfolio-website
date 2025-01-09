@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZainUlAbideenNauman.github.io/Portfolio-website",
+  "homepage": "https://zainn.dev",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
