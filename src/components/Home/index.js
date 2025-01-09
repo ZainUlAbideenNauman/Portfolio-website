@@ -1,7 +1,7 @@
 import LogoTitle from '../../assets/images/logo-z.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
-import Resume from '../../assets/Zains_s_s_Resume.pdf'
+import Resume from '../../assets/Resume Zain Ul Abideen.pdf'
 import AnimatedLetters from '../AnimatedLetters';
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
