@@ -8,7 +8,7 @@
         max-height: 90%;
     }
     h1 {
-        color: white;
+        color: black;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -17,7 +17,7 @@
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
-            color: #b5b4b4;
+            color: black;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -28,7 +28,7 @@
         &::after {
             content: '</h1>';
             font-family: 'La Belle Aurore';
-            color: #b5b4b4;
+            color: black;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
@@ -47,43 +47,43 @@
     }
 
     h2{
-        color: #b5b4b4;
+        color: black;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 13px;
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
     }
 
     .flat-button{
-        color: #b5b4b4;
+        color: black;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #b5b4b4 ;
+        border: 1px solid black ;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
-            background-color: #b5b4b4;
-            color: #333;
+            background-color: black;
+            color: white;
         }
     }
     .flat-button-right{
-      color: #b5b4b4;
+      color: black;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #b5b4b4 ;
+      border: 1px solid black ;
       margin-top: 25px;
       margin-left: 10px;
       float: left;
@@ -91,8 +91,8 @@
       white-space: nowrap;
 
       &:hover {
-          background-color: #b5b4b4;
-          color: #333;
+          background-color: black;
+          color: white;
       }
   }
 }
@@ -127,7 +127,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 0 20px 0px lightgray;
+      box-shadow: 0 0 20px 0px #333;
     }
   
     .face1 {

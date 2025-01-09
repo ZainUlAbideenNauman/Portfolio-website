@@ -52,7 +52,7 @@ const About = () => {
           <p align="right">
             Follow my Instagram account here!
             <a target='_blank' rel='noreferrer' href='https://www.instagram.com/zaindoesphotography/'>
-            <FontAwesomeIcon className='instagram-icon' icon={faInstagram} color= '#ffffff' />
+            <FontAwesomeIcon className='instagram-icon' icon={faInstagram} color= '#000000' />
           
 
             </a>
