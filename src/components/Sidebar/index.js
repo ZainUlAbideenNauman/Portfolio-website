@@ -12,19 +12,20 @@ const Sidebar = () =>(
         <img className = "sub-logo" src={LogoSubtitle} alt = "zain"/>
         </Link>
         <nav>
-            <NavLink exact= "true" activeClassname = "active" to = "/">
-            <FontAwesomeIcon icon={faHome} color="4d4d4e" />
-            </NavLink>
-            <NavLink exact= "true" activeClassname = "active" className="about-link" to = "/about">
-            <FontAwesomeIcon icon={faUser} color="4d4d4e" />
-            </NavLink>
-            <NavLink exact= "true" activeClassname = "active" className="contact-link" to = "/contact">
-            <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
-            </NavLink>
-            <NavLink exact= "true" activeClassname = "active" className="project-link" to = "/project">
-            <FontAwesomeIcon icon={faGraduationCap} color="4d4d4e" />
-            </NavLink>
-        </nav>
+    <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+        <FontAwesomeIcon icon={faHome} color="4d4d4e" />
+    </NavLink>
+    <NavLink to="/about" className={({ isActive }) => (isActive ? "active about-link" : "about-link")}>
+        <FontAwesomeIcon icon={faUser} color="4d4d4e" />
+    </NavLink>
+    <NavLink to="/contact" className={({ isActive }) => (isActive ? "active contact-link" : "contact-link")}>
+        <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+    </NavLink>
+    <NavLink to="/project" className={({ isActive }) => (isActive ? "active project-link" : "project-link")}>
+        <FontAwesomeIcon icon={faGraduationCap} color="4d4d4e" />
+    </NavLink>
+</nav>
+
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/zain-ul-abideen-3788102a9/'>
