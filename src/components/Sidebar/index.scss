@@ -48,7 +48,7 @@
             transition: all 0.3s ease-out;
         }
         &:hover{
-            color: #b5b4b4;
+            color: #e3dac9;
 
             svg{
                 opacity: 0;
@@ -95,7 +95,7 @@
     }
   a.active {
     svg {
-        color: #b5b4b4;
+        color: white;
     }
   }
 }
@@ -118,7 +118,7 @@ ul {
             transition: transform 0.2s ease-in-out;
 
             &:hover svg {
-                color: #cbcfd2;
+                color: #e3dac9;
                 transform: scale(1.2);
             }
         }

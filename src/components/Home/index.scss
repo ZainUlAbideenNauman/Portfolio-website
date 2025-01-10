@@ -8,7 +8,7 @@
         max-height: 90%;
     }
     h1 {
-        color: black;
+        color: #2b3137;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -17,7 +17,7 @@
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
-            color: black;
+            color: #2b3137;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -28,7 +28,7 @@
         &::after {
             content: '</h1>';
             font-family: 'La Belle Aurore';
-            color: black;
+            color: #2b3137;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
@@ -47,7 +47,7 @@
     }
 
     h2{
-        color: black;
+        color: #2b3137;
         margin-top: 20px;
         font-weight: 400;
         font-size: 13px;
@@ -57,33 +57,33 @@
     }
 
     .flat-button{
-        color: black;
+        color: #2b3137;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid black ;
+        border: 1px solid #2b3137 ;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
         &:hover {
-            background-color: black;
-            color: white;
+            background-color: #2b3137;
+            color: #e3dac9;
         }
     }
     .flat-button-right{
-      color: black;
+      color: #2b3137;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid black ;
+      border: 1px solid #2b3137 ;
       margin-top: 25px;
       margin-left: 10px;
       float: left;
@@ -91,8 +91,8 @@
       white-space: nowrap;
 
       &:hover {
-          background-color: black;
-          color: white;
+          background-color: #2b3137;
+          color: #e3dac9;
       }
   }
 }
@@ -127,7 +127,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 0 20px 0px #333;
+      box-shadow: 0 0 20px 0px #2b3137;
     }
   
     .face1 {

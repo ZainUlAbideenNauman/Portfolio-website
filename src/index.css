@@ -5,8 +5,8 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', Arial, 'sans-serif';
-  color: black;
-  background: #cbcfd2;
+  color: #2b3137;
+  background: #e3dac9;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
