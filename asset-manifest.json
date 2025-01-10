@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.85e98e57.css",
-    "main.js": "/static/js/main.cd45a5ae.js",
+    "main.css": "/static/css/main.b49ab8e2.css",
+    "main.js": "/static/js/main.3f491fc0.js",
     "static/js/488.15c117bb.chunk.js": "/static/js/488.15c117bb.chunk.js",
     "static/media/Resume Zain Ul Abideen.pdf": "/static/media/Resume Zain Ul Abideen.2b01513b2768462178e3.pdf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-z.png": "/static/media/logo-z.481d5c7cb1f13559cb4b.png",
+    "static/media/logo-z.png": "/static/media/logo-z.85bf5216600a2e3ad5c8.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.85e98e57.css.map": "/static/css/main.85e98e57.css.map",
-    "main.cd45a5ae.js.map": "/static/js/main.cd45a5ae.js.map",
+    "main.b49ab8e2.css.map": "/static/css/main.b49ab8e2.css.map",
+    "main.3f491fc0.js.map": "/static/js/main.3f491fc0.js.map",
     "488.15c117bb.chunk.js.map": "/static/js/488.15c117bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e98e57.css",
-    "static/js/main.cd45a5ae.js"
+    "static/css/main.b49ab8e2.css",
+    "static/js/main.3f491fc0.js"
   ]
 }
