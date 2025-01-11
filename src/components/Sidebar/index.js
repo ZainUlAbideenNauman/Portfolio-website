@@ -18,11 +18,11 @@ const Sidebar = () =>(
     <NavLink to="/about" className={({ isActive }) => (isActive ? "active about-link" : "about-link")}>
         <FontAwesomeIcon icon={faUser} color="4d4d4e" />
     </NavLink>
+    <NavLink to="/projects" className={({ isActive }) => (isActive ? "active projects-link" : "projects-link")}>
+        <FontAwesomeIcon icon={faGraduationCap} color="4d4d4e" />
+    </NavLink>
     <NavLink to="/contact" className={({ isActive }) => (isActive ? "active contact-link" : "contact-link")}>
         <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
-    </NavLink>
-    <NavLink to="/project" className={({ isActive }) => (isActive ? "active project-link" : "project-link")}>
-        <FontAwesomeIcon icon={faGraduationCap} color="4d4d4e" />
     </NavLink>
 </nav>
 

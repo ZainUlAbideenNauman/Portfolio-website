@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "cover": "/projects/I DEE DEE (Intoxication Detection Device)/I DEE DEE.jpg",
+            "title": "I Dee Dee (intoxication Detection Device",
+            "description": "Figma",
+            "url": "https://github.com/ZainUlAbideenNauman/GenAIHackathon2024" 
+        },
+        {
+            "cover": "/projects/Be Careful What You Wish For/title.png",
+            "title": "Be Careful What You Wish For",
+            "description": "Unity, C#",
+            "url": "https://globalgamejam.org/games/2024/be-careful-what-you-wish-9" 
+        },
+        {
+            "cover": "/projects/Portfolio website/logo.png",
+            "title": "Portfolio Website!",
+            "description": "GSMAP, React, SCSS, ",
+            "url": "https://zainn.dev" 
+        }
+    ]
+}
