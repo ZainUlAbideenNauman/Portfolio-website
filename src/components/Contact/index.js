@@ -3,6 +3,23 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, Popup, TileLayer, Marker } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+const defaultIcon = L.icon({
+    iconUrl: markerIcon,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+});
+
+L.Marker.prototype.options.icon = defaultIcon;
+
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -73,6 +90,23 @@ const Contact = () => {
 
 
                     </div>
+                </div>
+                <div className='info-map'>
+                  Zain Ul Abideen
+                  <br />
+                  Halifax, Canada
+                  <br/>
+                  6385 South St, Halifax, NS B3H 4J4 <br />
+                  <span>Zain.Abideen@dal.ca</span>
+                </div>
+                <div className='map-wrap'>
+                  <MapContainer center={[44.6347525,-63.5970667]} zoom={13}>
+                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    <Marker position={[44.6347525,-63.5970667]}>
+                      <Popup>I live here! Come over for a cup of tea :D</Popup>
+                    </Marker>
+
+                  </MapContainer>
                 </div>
             </div>
             <Loader type='pacman' />
