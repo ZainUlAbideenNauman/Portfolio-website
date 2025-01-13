@@ -150,3 +150,21 @@ h1 {
         background: #2b3137;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .container.projects-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .image-box {
+            flex: 0 1 calc(50% - 15px); /* Adjust size dynamically to fit 2 per row */
+            max-width: calc(50% - 15px); /* Ensure consistent width */
+        }
+    }
+}

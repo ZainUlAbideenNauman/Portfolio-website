@@ -178,3 +178,30 @@
     }
   }
   
+  @media screen and (max-width: 1200px) {
+    .tags,.home-page h1::before, .home-page h1::after {
+      display: none;
+    }
+    .home-page{
+      .text-zone {
+        position: initial;
+        width: 100%;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .flat-button,
+      .flat-button-right {
+        float: none;
+        display: block;
+        margin: 20px auto auto;
+        width: 135px;
+      }
+      .stage-cube-cont {
+        position: initial;
+        width: 100%;
+        height: 0%;
+        overflow: visible;
+      }
+    }
+  }

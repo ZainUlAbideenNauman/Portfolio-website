@@ -38,8 +38,7 @@
     animation-delay: 1s;
 }
 
-.about-page,
-.projects-page{
+.about-page{
     .text-zone {
         position: absolute;
         left: 10%;
@@ -138,4 +137,29 @@
             color: white;
         }
     }
+}
+
+@media screen and (max-width: 1200px) {
+    .page {
+        position: initial;
+    }
+    .container {
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.projects-page {
+            .text-zone, .text-zone2 {
+                position: initial;
+                transform: none;
+                display: block;
+                width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        }
+    }
+    
 }

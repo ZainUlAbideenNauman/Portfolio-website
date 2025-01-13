@@ -187,3 +187,20 @@ textarea {
     font-family:  sans-serif;
 }
 
+@media screen and (max-width: 1200px) {
+        .info-map {
+            display: none; 
+        }
+        .map-wrap {
+            width: calc(50%);
+            height: 400px
+        }
+        .contact-form, li, li.half, input[type='text'],
+        input[type='email'],textarea  {
+            position: initial;
+            width: 100%;
+        }
+        span {
+            font-size: 40px;
+        }
+}    
